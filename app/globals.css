@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --dark-blue: #3d52a0;
+  --medium-blue: #7091e6;
+  --muted-blue: #8697c4;
+  --soft-blue: #adbbda;
+  --light-blue: #FFFFFF;
+}
+
+body {
+  font-family: var(--font-open-sans), sans-serif;
+  color: var(--dark-blue);
+  background-color: var(--light-blue);
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-[#3D52A0] hover:bg-[#7091E6] text-[#FFFFFF] px-6 py-3 rounded-md font-medium transition-colors;
+  }
+
+  .btn-secondary {
+    @apply bg-[#8697C4] hover:bg-[#ADBBDA] text-[#3D52A0] px-6 py-3 rounded-md font-medium transition-colors;
+  }
+
+  .section-title {
+    @apply text-3xl md:text-4xl font-bold mb-8;
+  }
+}
+
