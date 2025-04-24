@@ -13,9 +13,19 @@ import FACILITY2 from "@/public/facility2.jpeg"
 
 import FACILITY3 from "@/public/facility3.jpeg"
 import QA  from "@/public/QA.jpeg"
+// import director from "@/public/director.jpeg"
 
-
-
+import trivin from "@/public/trivin.jpeg"
+import trivin1 from "@/public/trivin1.jpeg"
+import trivin2 from "@/public/trivin2.jpeg"
+import trivin3 from "@/public/trivin3.jpeg"
+import trivin4 from "@/public/trivin4.jpeg"
+import trivin5 from "@/public/trivin5.jpeg"
+import trivin6 from "@/public/trivin6.jpeg"
+import trivin7 from "@/public/trivin7.jpeg"
+import trivin8 from "@/public/trivin8.jpeg"
+import trivin9 from "@/public/trivin9.jpeg"
+import director from "@/public/director.jpeg"
 
 
 export default function Home() {
@@ -55,49 +65,49 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Services Section */}
-      <section className="py-16 bg-[#ADBBDA]">
-        <div className="container mx-auto px-4">
-          <h2 className="text-3xl md:text-4xl font-bold text-[#3D52A0] text-center mb-12">Our Services</h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="bg-[#FFFFFF] p-8 rounded-lg shadow-md flex flex-col items-center text-center">
-              <div className="bg-[#7091E6] p-4 rounded-full mb-6">
-                <Package size={32} className="text-[#FFFFFF]" />
-              </div>
-              <h3 className="text-xl font-bold text-[#3D52A0] mb-4">Packaging Solutions</h3>
-              <p className="text-[#3D52A0]">
-                Custom packaging solutions designed to protect your products and enhance your brand identity.
-              </p>
-            </div>
-            <div className="bg-[#FFFFFF] p-8 rounded-lg shadow-md flex flex-col items-center text-center">
-              <div className="bg-[#7091E6] p-4 rounded-full mb-6">
-                <Printer size={32} className="text-[#FFFFFF]" />
-              </div>
-              <h3 className="text-xl font-bold text-[#3D52A0] mb-4">Custom Printing</h3>
-              <p className="text-[#3D52A0]">
-                High-quality printing services with attention to detail for vibrant and durable results.
-              </p>
-            </div>
-            <div className="bg-[#FFFFFF] p-8 rounded-lg shadow-md flex flex-col items-center text-center">
-              <div className="bg-[#7091E6] p-4 rounded-full mb-6">
-                <Gift size={32} className="text-[#FFFFFF]" />
-              </div>
-              <h3 className="text-xl font-bold text-[#3D52A0] mb-4">Gift Packaging</h3>
-              <p className="text-[#3D52A0]">
-                Elegant and attractive gift boxes that make your presents stand out and create memorable experiences.
-              </p>
-            </div>
-          </div>
-          <div className="text-center mt-12">
-            <Link
-              href="/services"
-              className="bg-[#3D52A0] hover:bg-[#7091E6] text-[#FFFFFF] px-6 py-3 rounded-md font-medium inline-flex items-center gap-2 transition-colors"
-            >
-              View All Services <ArrowRight size={18} />
-            </Link>
-          </div>
+    {/* Services Section */}
+<section className="py-16 bg-[#ADBBDA]">
+  <div className="container mx-auto px-4">
+    <h2 className="text-3xl md:text-4xl font-bold text-[#3D52A0] text-center mb-12">Our Services</h2>
+    <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div className="bg-[#FFFFFF] p-8 rounded-lg shadow-md flex flex-col items-center text-center transform hover:scale-95 transition duration-300 ease-in-out">
+        <div className="bg-[#7091E6] p-4 rounded-full mb-6">
+          <Package size={32} className="text-[#FFFFFF]" />
         </div>
-      </section>
+        <h3 className="text-xl font-bold text-[#3D52A0] mb-4">Packaging Solutions</h3>
+        <p className="text-[#3D52A0]">
+          Custom packaging solutions designed to protect your products and enhance your brand identity.
+        </p>
+      </div>
+      <div className="bg-[#FFFFFF] p-8 rounded-lg shadow-md flex flex-col items-center text-center transform hover:scale-95 transition duration-300 ease-in-out">
+        <div className="bg-[#7091E6] p-4 rounded-full mb-6">
+          <Printer size={32} className="text-[#FFFFFF]" />
+        </div>
+        <h3 className="text-xl font-bold text-[#3D52A0] mb-4">Custom Printing</h3>
+        <p className="text-[#3D52A0]">
+          High-quality printing services with attention to detail for vibrant and durable results.
+        </p>
+      </div>
+      <div className="bg-[#FFFFFF] p-8 rounded-lg shadow-md flex flex-col items-center text-center transform hover:scale-95 transition duration-300 ease-in-out">
+        <div className="bg-[#7091E6] p-4 rounded-full mb-6">
+          <Gift size={32} className="text-[#FFFFFF]" />
+        </div>
+        <h3 className="text-xl font-bold text-[#3D52A0] mb-4">Gift Packaging</h3>
+        <p className="text-[#3D52A0]">
+          Elegant and attractive gift boxes that make your presents stand out and create memorable experiences.
+        </p>
+      </div>
+    </div>
+    <div className="text-center mt-12">
+      <Link
+        href="/services"
+        className="bg-[#3D52A0] hover:bg-[#7091E6] text-[#FFFFFF] px-6 py-3 rounded-md font-medium inline-flex items-center gap-2 transition-colors"
+      >
+        View All Services <ArrowRight size={18} />
+      </Link>
+    </div>
+  </div>
+</section>
 
       {/* Featured Products */}
       <section className="py-16 bg-[#8697C4]">
@@ -289,6 +299,101 @@ export default function Home() {
         </div>
       </section>
 
+{/* Meet Our Team */}
+<section className="py-16 bg-[#F3F4F6]">
+  <div className="container mx-auto px-4">
+    {/* Heading */}
+    <h2 className="text-3xl md:text-4xl font-bold text-[#3D52A0] text-center mb-16">
+      Meet Our Team
+    </h2>
+
+    {/* Two-column layout */}
+    <div className="grid md:grid-cols-2 gap-12 items-center">
+      {/* Image (left) */}
+      <div className="relative aspect-[4/3] h-[400px] rounded-lg overflow-hidden shadow-xl">
+        <Image src={director}alt="Rahul Patil - Founder" fill className="object-cover" />
+      </div>
+
+      {/* Text (right) */}
+      <div className="text-[#3D52A0] space-y-5">
+        <h3 className="text-3xl font-bold">Praphull Praksh Lanjekar</h3>
+        <p className="text-xl italic text-[#5E74C1]">Founder & Managing Director</p>
+        <div className="space-y-3 text-lg leading-relaxed">
+          <p>
+            With over a decade of experience in the printing and packaging industry, Praphull has established himself
+            as a visionary leader committed to excellence and innovation.
+          </p>
+          <p>
+            He founded <strong>Print QC</strong> in 2015 with a mission to redefine quality standards and customer service in the
+            industry. His leadership has been the cornerstone of our growth and reputation.
+          </p>
+          <p>
+            Today, Print QC is one of the most trusted packaging partners in Maharashtra, known for precision,
+            innovation, and reliability.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section className="py-16 bg-[#FFFFFF]">
+  <div className="container mx-auto px-4">
+
+    {/* Marquee Slider */}
+    <div className="relative overflow-hidden">
+      <div
+        className="flex gap-16 items-center"
+        style={{
+          animation: 'marquee 10s linear infinite',
+          whiteSpace: 'nowrap',
+        }}
+      >
+        {[
+          
+          
+          trivin,
+          trivin1,
+          trivin2,
+          trivin3,
+          trivin4,
+          trivin5,
+          trivin6,
+          trivin7,
+          trivin8,
+          trivin9,
+        ].map((img, idx) => (
+          <div
+            key={idx}
+            className="relative w-[160px] h-[100px] flex items-center justify-center flex-shrink-0"
+          >
+            <Image
+              src={img}
+              alt={`Logo ${idx + 1}`}
+              fill
+              className="object-contain"
+            />
+          </div>
+        ))}
+      </div>
+
+      {/* Inline animation styles */}
+      <style>
+        {`
+          @keyframes marquee {
+            0% { transform: translateX(0); }
+            100% { transform: translateX(-50%); }
+          }
+        `}
+      </style>
+    </div>
+  </div>
+</section>
+
+
+
+
       {/* Call to Action */}
       <section className="py-16 bg-[#3D52A0]">
         <div className="container mx-auto px-4 text-center">
@@ -307,6 +412,7 @@ export default function Home() {
       </section>
     </main>
   )
+  
 }
 
 const featuredProducts = [

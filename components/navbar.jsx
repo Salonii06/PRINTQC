@@ -22,7 +22,7 @@ export default function Navbar() {
             <div className="relative h-10 w-12 mr-1">
               <Image src={LOGO} alt="Print QC Logo" fill className="object-contain" />
             </div>
-            <span className="text-[#FFFFFF] text-2xl font-extrabold">Print QC</span>
+            <span className="text-[#FFFFFF] text-2xl font-extrabold">PRINT QC</span>
           </Link>
 
           {/* Desktop Navigation */}

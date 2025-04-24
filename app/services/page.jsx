@@ -98,7 +98,7 @@ export default function ServicesPage() {
       {/* Hero Section */}
       <section className="relative py-10 md:py-14 bg-[#3D52A0] text-[#EDE8F5]">
   <div className="container mx-auto px-6 text-center">
-    <h1 className="text-3xl md:text-4xl font-serif tracking-tight mb-4">
+    <h1 className="text-3xl md:text-4xl font-extrabold tracking-tight mb-4">
       Our Services
     </h1>
     <div className="w-16 h-1 mx-auto bg-[#EDE8F5] rounded-full mb-6" />

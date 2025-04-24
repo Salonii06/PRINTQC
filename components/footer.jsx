@@ -14,20 +14,20 @@ export default function Footer() {
               <div className="relative h-12 w-16 r-3">
                 <Image src={PQCLOGO} alt="Logo" fill className="object-contain" />
               </div>
-              <h2 className="text-xl font-bold text-[#FFFFFF]">Print QC</h2>
+              <h2 className="text-xl font-bold text-[#FFFFFF]">PRINT QC</h2>
             </div>
             <p className="mb-4">
               Quality Printing Solutions since 2015. Leading manufacturer of printed boxes, packaging boxes, and gift
               boxes.
             </p>
             <div className="flex space-x-4">
-              <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+              <a href="https://www.facebook.com/share/15awvuQ57E/" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
                 <Facebook className="text-[#FFFFFF] hover:text-[#7091E6] transition-colors" />
               </a>
               <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
                 <Instagram className="text-[#FFFFFF] hover:text-[#7091E6] transition-colors" />
               </a>
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+              <a href="https://www.linkedin.com/company/107181153/admin/dashboard/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
                 <Linkedin className="text-[#FFFFFF] hover:text-[#7091E6] transition-colors" />
               </a>
             </div>
@@ -79,8 +79,7 @@ export default function Footer() {
               <li className="flex items-start">
                 <MapPin className="mr-2 h-5 w-5 shrink-0 text-[#7091E6]" />
                 <span>
-                  Flat No-201, 2nd Floor, Building No-99, Samrudhhi Evergreen, Vangani, Badlapur, Thane-421503,
-                  Maharashtra, India
+                Ground Floor, Unit No. 34, A2 Shah And Nahar Industrial Estate, Sitaram Jadhav Marg Sunmill Compound, Delisle Road Sub Post Office, Lower Parel, Mumbai-400013
                 </span>
               </li>
               <li className="flex items-center">

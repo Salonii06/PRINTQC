@@ -64,8 +64,7 @@ export default function ContactPageClient() {
               </div>
               <h3 className="text-xl font-bold text-[#3D52A0] mb-3">Our Location</h3>
               <p className="text-[#3D52A0]">
-                Flat No-201, 2nd Floor, Building No-99, Samrudhhi Evergreen, Vangani, Badlapur, Thane-421503,
-                Maharashtra, India
+              Ground Floor, Unit No. 34, A2 Shah And Nahar Industrial Estate, Sitaram Jadhav Marg Sunmill Compound, Delisle Road Sub Post Office, Lower Parel, Mumbai-400013
               </p>
             </div>
             <div className="bg-[#FFFFFF] p-6 rounded-lg shadow-md flex flex-col items-center text-center">
@@ -113,14 +112,14 @@ export default function ContactPageClient() {
         </div>
       </section>
 
-      {/* Map */}
+    {/* Map */}
 <section className="py-16 bg-[#7091E6]">
   <div className="container mx-auto px-4">
     <h2 className="text-3xl font-bold text-[#FFFFFF] text-center mb-8">Find Us</h2>
     <div className="h-[400px] rounded-lg overflow-hidden shadow-xl">
       <iframe
         className="w-full h-full"
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1973.1184990491365!2d73.2524271!3d19.1399751!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7ed14af7ae2b1%3A0x80883a015f1f360b!2sPoddar%20Samruddhi%20Evergreens!5e0!3m2!1sen!2sin!4v1700000000000"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3770.1035433828894!2d72.82519997519374!3d18.993081955330735!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7ce8b4c84a8eb%3A0xb69843a27dd2b3b7!2sA2%2C%20Shah%20And%20Nahar%20Industrial%20Estate!5e0!3m2!1sen!2sin!4v1713614000000!5m2!1sen!2sin"
         allowFullScreen
         loading="lazy"
         referrerPolicy="no-referrer-when-downgrade"
@@ -128,6 +127,7 @@ export default function ContactPageClient() {
     </div>
   </div>
 </section>
+
 
     </main>
   )
